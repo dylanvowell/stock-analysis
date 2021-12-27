@@ -1,12 +1,12 @@
-#Overview of Project
+# Overview of Project
 This analysis is intended to show the different green energy stocks for Steve and his parents by comparing volume, starting price, ending price, and overall gains/losses for the DQ stock, and compare that to how other stocks performed so that they could diversify their portfolio. The purpose was to also make the spreadsheets readable and the macros executable with the press of a button. Ultimately, the goal was to be able to re-use these macros for any number of different stocks with minimal editing needed for the original subroutine.
-#Results
-##Performance of Stocks between 2017 and 2018
+# Results
+## Performance of Stocks between 2017 and 2018
 Upon running the scripts for the different years, it becomes clear that 2017 was a standout year and 2018 was not too great for the green energy stocks. It is unclear, however, what might have caused this disparity between the two years. I do see that there are some variances between the volume of the two years, but I can't determine any patterns which might connect cause and effect.
-##Execution Times of the Code
+## Execution Times of the Code
 The code in the challenge was significantly faster than the code from the modules. I think that by removing the nested loops and using the tickerIndex to identify what index was being used, it eliminated a lot of redundant code and therefore created a more efficient macro to use on large amounts of stocks.
-#Summary
-##What are the advantages or disadvantages of refactoring code? 
+# Summary
+## What are the advantages or disadvantages of refactoring code? 
 The clear advantage would be making the code more efficient. Being able to go line by line and identify what is redunant and what is still needed is an important skill to have as a programmer in any language since efficiency is key in computing. A disadvantage would be the possibility of breaking the code, somehow altering the purpose of it, or creating issues down the line where what you changed could actually be less efficient given certain circumstances. 
-##How do these pros and cons apply to refactoring the original VBA script?
+## How do these pros and cons apply to refactoring the original VBA script?
 In the case of this particular script, it was definitely much faster the second iteration and also the code was easier to read overall. A disadvantage for me in particular would be not understanding why certain things are changed in this context and my general lack of knowledge about the code itself. There are a few areas where I know what needed to be changed, but because I had not been introduced to these concepts in prior lessons, I wasn't even aware of what I needed to Google in order to reach the best outcome. So, refactoring code might make it harder for beginners to understand as opposed to leaving it basic or long-winded.
